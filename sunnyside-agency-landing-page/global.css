@@ -1,0 +1,103 @@
+@import 'style.css';
+
+:root {
+  /*  primary colors */
+  --soft-red: hsl(7, 99%, 70%);
+  --yellow: hsl(51, 100%, 49%);
+  --cyan: hsl(200, 100%, 62%);
+  /*  graphic design text */
+  --dark-desaturated-cyan: hsl(167, 40%, 24%);
+  /*  photography text */
+  --dark-blue: hsl(198, 62%, 26%);
+  /* footer */
+  --dark-moderate-cyan: hsl(168, 34%, 41%);
+  /* neutral colors */
+  --very-dark-desturated-blue: hsl(212, 27%, 19%);
+  --very-dark-grayish-blue: hsl(213, 9%, 39%);
+  --dark-grayish-blue: hsl(232, 10%, 55%);
+  --grayish-blue: hsl(210, 4%, 67%);
+  --white: hsl(0, 0%, 100%);
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*  global style */
+body {
+  font-family: 'Barlow', sans-serif;
+  color: var(--white);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Fraunces', serif;
+}
+
+h2,
+h3,
+p {
+  line-height: 1.8;
+}
+
+h1 {
+  max-width: 70%;
+  font-size: 2.5rem;
+  letter-spacing: 0.25rem;
+  margin-top: 4rem;
+}
+
+h2 {
+  font-size: 1.6rem;
+  color: var(--very-dark-desturated-blue);
+  font-weight: 900;
+}
+
+h3 {
+  letter-spacing: 0.25rem;
+  color: var(--grayish-blue);
+}
+
+h4 {
+  font-weight: 800;
+  color: var(--very-dark-desturated-blue);
+}
+
+img,
+.image {
+  width: 100%;
+  height: 100%;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+footer {
+  background: hsla(168, 34%, 41%, 0.8);
+}
+
+.container {
+  width: min(90%, 1400px);
+  margin: 0 auto;
+}
+
+/* class helper */
+.text-center {
+  text-align: center;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
