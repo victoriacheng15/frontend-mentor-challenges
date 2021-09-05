@@ -21,7 +21,7 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![stats-preview-card-component](https://user-images.githubusercontent.com/35031228/132131216-04757ae2-6a1b-47b5-8c71-a0ba25674668.png)
 
 ### Links
 
