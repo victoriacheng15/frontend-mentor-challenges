@@ -1,16 +1,16 @@
 # Frontend Mentor Challenges
 
-All projects are provided by [Frontend Mentor](https://www.frontendmentor.io/)
+This is a solution repo for [Frontend Mentor](https://www.frontendmentor.io/) challenges. Check out [my profile](https://www.frontendmentor.io/profile/victoriacheng15) there.
 
 # My Project Submissions
 
-**_Using JavaScript, CSS and HTML_**
+**_JavaScript, CSS and HTML_**
 | List | Project Name |
 | ---- | ---------------------------------------------------------------------------------------------------------------------------- |
 | 1. | [Sunnyside Agency Landing Page](https://victoriacheng15.github.io/frontend-mentor-challenges/sunnyside-agency-landing-page/) | |
 | 2. | [Tip Calculator App](https://victoriacheng15.github.io/frontend-mentor-challenges/tip-calculator-app/) |
 
-**_Using CSS and HTML_**
+**_CSS and HTML Only_**
 
 | List | Project Name                                                                                                                      |
 | ---- | --------------------------------------------------------------------------------------------------------------------------------- |
