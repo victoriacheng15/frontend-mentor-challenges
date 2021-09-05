@@ -23,4 +23,5 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ## Author
 
-- Frontend Mentor - [my profile page](https://www.frontendmentor.io/profile/victoriacheng15)
+- Frontend Mentor - [@victoriacheng15](https://www.frontendmentor.io/profile/victoriacheng15)
+- Github - [@victoriacheng15](https://github.com/victoriacheng15)

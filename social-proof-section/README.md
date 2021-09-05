@@ -49,5 +49,5 @@ Users should be able to:
 
 ## Author
 
-- Github - [victoriacheng15](https://github.com/victoriacheng15)
 - Frontend Mentor - [@victoriacheng15](https://www.frontendmentor.io/profile/victoriacheng15)
+- Github - [@victoriacheng15](https://github.com/victoriacheng15)

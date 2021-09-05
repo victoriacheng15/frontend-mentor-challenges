@@ -7,14 +7,14 @@ realistic projects.
 
 ## Table of contents
 
--   [Overview](#overview)
-    -   [The challenge](#the-challenge)
-    -   [Screenshot](#screenshot)
-    -   [Links](#links)
--   [My process](#my-process)
-    -   [Built with](#built-with)
-    -   [What I learned](#what-i-learned)
--   [Author](#author)
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+- [Author](#author)
 
 ## Overview
 
@@ -22,9 +22,9 @@ realistic projects.
 
 Users should be able to:
 
--   Responsive webpage for mobile and desktop
--   View the optimal layout depending on their device's screen size
--   See hover states for interactive elements
+- Responsive webpage for mobile and desktop
+- View the optimal layout depending on their device's screen size
+- See hover states for interactive elements
 
 ### Screenshot
 
@@ -32,19 +32,19 @@ Users should be able to:
 
 ### Links
 
--   Solution URL:
-    [Solution page at Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-page-with-mobile-design-first-and-flexbox-77MvHb6B-)
--   Live Site URL:
-    [Github live page](https://victoriacheng15.github.io/3-column-preview-card-component/)
+- Solution URL:
+  [Solution page at Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-page-with-mobile-design-first-and-flexbox-77MvHb6B-)
+- Live Site URL:
+  [Github live page](https://victoriacheng15.github.io/3-column-preview-card-component/)
 
 ## My process
 
 ### Built with
 
--   Semantic HTML5 markup
--   CSS custom properties
--   Flexbox
--   Mobile-first workflow
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- Mobile-first workflow
 
 ### What I learned
 
@@ -53,6 +53,5 @@ viewport size.
 
 ## Author
 
--   Github - [My github page](https://github.com/victoriacheng15)
--   Frontend Mentor -
-    [@victoriacheng15](https://www.frontendmentor.io/profile/victoriacheng15)
+- Frontend Mentor - [@victoriacheng15](https://www.frontendmentor.io/profile/victoriacheng15)
+- Github - [@victoriacheng15](https://github.com/victoriacheng15)
