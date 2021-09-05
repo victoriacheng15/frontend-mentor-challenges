@@ -25,8 +25,8 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 
 ### Links
 
-- Solution URL: [Frontend Mentor Solution site](https://your-solution-url.com)
-- Live Site URL: [Github Living Site](https://your-live-site-url.com)
+- [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/utilize-css-grid-and-flex-and-mobile-first-i230prWHt)
+- [Github Live Page](https://victoriacheng15.github.io/frontend-mentor-challenges/stats-preview-card-component/)
 
 # My process
 

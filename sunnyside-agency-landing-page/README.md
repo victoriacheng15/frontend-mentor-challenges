@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor Solution](https://victoriacheng15.github.io/sunnyside-agency-landing-page/)
-- Live Site URL: [Github Page](https://victoriacheng15.github.io/sunnyside-agency-landing-page/)
+- [Frontend Mentor Solution](https://victoriacheng15.github.io/sunnyside-agency-landing-page/)
+- [Github Page](https://victoriacheng15.github.io/sunnyside-agency-landing-page/)
 
 ## My process
 

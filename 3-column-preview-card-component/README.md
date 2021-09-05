@@ -33,9 +33,9 @@ Users should be able to:
 ### Links
 
 - Solution URL:
-  [Solution page at Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-page-with-mobile-design-first-and-flexbox-77MvHb6B-)
+  [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/responsive-page-with-mobile-design-first-and-flexbox-77MvHb6B-)
 - Live Site URL:
-  [Github live page](https://victoriacheng15.github.io/3-column-preview-card-component/)
+  [Github Live Page](https://victoriacheng15.github.io/3-column-preview-card-component/)
 
 ## My process
 

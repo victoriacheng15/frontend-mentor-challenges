@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Frontned Mentor Solution URL: [https://www.frontendmentor.io/solutions/mobile-first-site-using-css-flex-and-grid-LlpExKvbG](https://www.frontendmentor.io/solutions/mobile-first-site-using-css-flex-and-grid-LlpExKvbG)
-- Github page URL: [https://victoriacheng15.github.io/social-proof-section/](https://victoriacheng15.github.io/social-proof-section/)
+- [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/mobile-first-site-using-css-flex-and-grid-LlpExKvbG)
+- [Github Live Page](https://victoriacheng15.github.io/social-proof-section/)
 
 ## My process
 

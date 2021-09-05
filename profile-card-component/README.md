@@ -12,8 +12,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Solution at Frontend Mentor: [click here](https://www.frontendmentor.io/solutions/used-flexbox-to-make-the-layout-0pBc7Cv-b)
-- Live Site: [click here](https://victoriacheng15.github.io/frontendmentor_profile-card-component/)
+- [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/used-flexbox-to-make-the-layout-0pBc7Cv-b)
+- [Github Live Page](https://victoriacheng15.github.io/frontendmentor_profile-card-component/)
 
 ### Built with
 
