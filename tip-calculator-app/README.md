@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- [Frontend Mentor Solution](https://your-solution-url.com)
+- [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/built-with-javascript-css-custom-properties-and-flexbox-dxHf9b5x_)
 - [Github Live Page](https://victoriacheng15.github.io/frontend-mentor-challenges/tip-calculator-app/)
 
 ## My process
