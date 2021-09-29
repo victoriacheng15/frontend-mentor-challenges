@@ -12,3 +12,4 @@ This is a solution repo for [Frontend Mentor](https://www.frontendmentor.io/) ch
 | 4.   | [Socal Proof Section](https://victoriacheng15.github.io/frontend-mentor-challenges/social-proof-section/)                         |
 | 5.   | [Sunnyside Agency Landing Page](https://victoriacheng15.github.io/frontend-mentor-challenges/sunnyside-agency-landing-page/) | |
 | 6. | [Tip Calculator App](https://victoriacheng15.github.io/frontend-mentor-challenges/tip-calculator-app/) |
+| 7. | [Calculator App](https://victoriacheng15.github.io/frontend-mentor-challenges/calculator-app/) |
