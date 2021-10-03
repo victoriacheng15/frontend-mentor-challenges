@@ -35,7 +35,7 @@ Users should be able to:
 
 ### Links
 
-- [Frontend Mentor Solution]()
+- [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/mobile-first-approach-site-with-flex-jXvJcFqlp)
 - [Github Live Page](https://victoriacheng15.github.io/frontend-mentor-challenges/loopstudios-landing-page/)
 
 ## My process
