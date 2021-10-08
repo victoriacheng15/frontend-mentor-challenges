@@ -1,0 +1,126 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: min(90%, 380px);
+  margin: 0 auto;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #e0e8ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+button {
+  width: 100%;
+  margin: 1.5rem;
+  padding: 1rem 0;
+  background-color: #3829e0;
+  border: none;
+  border-radius: 15px;
+  color: #e0e8ff;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 1.15rem;
+  font-weight: 900;
+  box-shadow: 0 5px 10px #7280a7;
+  cursor: pointer;
+  transition: filter 300ms ease;
+}
+button:hover {
+  filter: brightness(1.8);
+}
+
+.box {
+  border-radius: 25px;
+  background-color: #fff;
+  overflow: hidden;
+  box-shadow: 0 5px 15px #7280a7;
+}
+
+main {
+  padding: 1.25rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main h1,
+main h2 {
+  color: #1f2f56;
+  margin-bottom: 0.5rem;
+}
+main p {
+  color: #7280a7;
+}
+main .cancel-order {
+  text-decoration: none;
+  color: #7280a7;
+  font-weight: 700;
+  transition: color 300ms ease;
+}
+main .cancel-order:hover {
+  color: #1f2f56;
+}
+main .title {
+  width: 78%;
+  text-align: center;
+  line-height: 2;
+}
+main .title h1 {
+  font-weight: 900;
+}
+main .title p {
+  margin-bottom: 1rem;
+}
+main .order {
+  width: 100%;
+  padding: 1.25rem 1rem;
+  background-color: #f5f7ff;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5rem;
+}
+main .order img {
+  width: 20%;
+}
+main .order h2 {
+  font-size: 1.1rem;
+  font-weight: 900;
+}
+main .order a {
+  color: #3829e0;
+  font-weight: 900;
+  transition: color 300ms ease;
+}
+main .order a:hover {
+  color: #7280a7;
+  text-decoration: none;
+}
+
+footer {
+  padding-bottom: 0.5rem;
+}
+footer .attribution {
+  font-size: 11px;
+  text-align: center;
+}
+footer .attribution a {
+  color: #3e52a3;
+}
+
+/*# sourceMappingURL=style.css.map */
