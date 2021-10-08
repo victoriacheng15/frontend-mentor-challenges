@@ -1,0 +1,60 @@
+// primary colors
+$pale-blue: hsl(225, 100%, 94%);
+$bright-blue: hsl(245, 75%, 52%);
+
+//  neutral colors
+$very-pale-blue: hsl(225, 100%, 98%);
+$desaturated-blue: hsl(224, 23%, 55%);
+$dark-blue: hsl(223, 47%, 23%);
+
+//  font style
+$font-style: 'Red Hat Display', sans-serif;
+$weight-500: 500;
+$weight-700: 700;
+$weight-900: 900;
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: Min(90%, 380px);
+  margin: 0 auto;
+}
+
+body {
+  min-height: 100vh;
+  background-color: $pale-blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: $font-style;
+}
+
+img {
+  width: 100%;
+}
+
+button {
+  width: 100%;
+  margin: 1.5rem;
+  padding: 1rem 0;
+  background-color: $bright-blue;
+  border: none;
+  border-radius: 15px;
+  color: $pale-blue;
+  font-family: $font-style;
+  font-size: 1.15rem;
+  font-weight: $weight-900;
+  box-shadow: 0 5px 10px $desaturated-blue;
+  cursor: pointer;
+  transition: filter 300ms ease;
+
+  &:hover {
+    filter: brightness(1.8);
+  }
+}
