@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- [Frontend Mentor Solution]()
+- [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/using-scss-to-design-the-page-OBc-VY6Ol)
 - [Github Live Page](https://victoriacheng15.github.io/frontend-mentor-challenges/order-summary-component/)
 
 ## My process
