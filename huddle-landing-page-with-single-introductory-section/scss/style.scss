@@ -1,0 +1,76 @@
+@use 'reset' as *;
+@use 'global' as *;
+
+body {
+  min-height: 100vh;
+  padding: 1.5rem 0;
+  background-color: $violet;
+  position: relative;
+  font-family: $font-body;
+  font-weight: 400;
+  color: #fff;
+  line-height: 1.5;
+
+  &:before {
+    content: '';
+    inset: 0;
+    position: absolute;
+    width: 100%;
+    height: Min(70%, 400px);
+    background: url(../images/bg-mobile.svg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+  }
+}
+
+header {
+  .logo {
+    max-width: 35%;
+    margin-bottom: 2.5rem;
+  }
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  img {
+    margin-bottom: 2rem;
+  }
+
+  .info-section {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+
+    h1 {
+      font-family: $font-headings;
+      margin-bottom: 1.5rem;
+    }
+
+    p {
+      @include font-body;
+      margin-bottom: 1.5rem;
+    }
+  }
+}
+
+footer {
+  .social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+
+    a {
+      color: #fff;
+    }
+  }
+}
