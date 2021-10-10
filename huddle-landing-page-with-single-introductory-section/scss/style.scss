@@ -1,0 +1,113 @@
+@use 'reset' as *;
+@use 'global' as *;
+
+body {
+  min-height: 100vh;
+  padding-top: 1.5rem;
+  background-color: $violet;
+  font-family: $font-body;
+  font-weight: 400;
+  color: #fff;
+  line-height: 1.5;
+  position: relative;
+
+  &:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: Min(70%, 400px);
+    inset: 0;
+    background: url(../images/bg-mobile.svg) center no-repeat;
+    background-size: cover;
+    z-index: -1;
+
+    @include respond(medium) {
+      background: url(../images/bg-desktop.svg) center no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  @include respond(medium) {
+    @include flex;
+  }
+}
+
+header {
+  .logo {
+    max-width: 35%;
+    margin-bottom: 2.5rem;
+  }
+}
+
+main {
+  @include flex;
+  flex-direction: column;
+  margin-bottom: 3rem;
+
+  img {
+    margin-bottom: 2rem;
+
+    @include respond(medium) {
+      width: 50%;
+      margin: 0;
+    }
+  }
+
+  .info-section {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+
+    h1 {
+      font-family: $font-headings;
+      margin-bottom: 1.5rem;
+
+      @include respond(medium) {
+        font-size: 2rem;
+      }
+    }
+
+    p {
+      @include font-body;
+      margin-bottom: 1.5rem;
+    }
+
+    @include respond(medium) {
+      width: 50%;
+      text-align: left;
+    }
+
+    @include respond(medium) {
+      @include flex;
+      flex-direction: column;
+    }
+  }
+
+  @include respond(medium) {
+    flex-direction: row;
+    gap: 3rem;
+  }
+}
+
+footer {
+  .social-media {
+    @include flex;
+    gap: 2rem;
+    margin-bottom: 3rem;
+
+    @include respond(medium) {
+      justify-content: flex-end;
+    }
+  }
+
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+
+    a {
+      color: $soft-magenta;
+    }
+  }
+}
