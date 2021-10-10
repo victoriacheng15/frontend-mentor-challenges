@@ -11,7 +11,6 @@ This is a solution to the [Huddle landing page with single introductory section 
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
@@ -26,11 +25,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![huddle-landing-page-with-single-introductory-section](https://user-images.githubusercontent.com/35031228/136703756-420e3477-bb17-4759-8b74-b83293efcb8c.png)
 
 ### Links
 
-- [Frontend Mentor Solution]()
+- [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/responsive-landing-page-with-scss-K9cRDlhut)
 - [Github Live Page](https://victoriacheng15.github.io/frontend-mentor-challenges/huddle-landing-page-with-single-introductory-section/)
 
 ## My process
@@ -40,17 +39,11 @@ Users should be able to:
 - Semantic HTML5 markup
 - SCSS
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+I learned more about how to use mixin SCSS feature to avoid rewrite same codes over and over. It also keep the SCSS file clean.
 
 ## Author
 
