@@ -30,39 +30,81 @@ img {
   width: min(90%, 380px);
   margin: 0 auto;
 }
+@media (min-width: 700px) {
+  .container {
+    width: min(90%, 900px);
+  }
+}
 
 button {
   font-family: "Open Sans", sans-serif;
+  transition: all 300ms ease;
   width: 70%;
-  padding: 0.5rem 3rem;
+  padding: 0.5rem 1rem;
   border: none;
   border-radius: 100px;
   background: #fff;
   color: #674baf;
   font-weight: 600;
-  margin-bottom: 3rem;
+  cursor: pointer;
+}
+button:hover {
+  background: #e882e8;
+  color: #fff;
+}
+@media (min-width: 700px) {
+  button {
+    width: 40%;
+  }
+}
+
+i {
+  transition: all 300ms ease;
+  padding: 0.75rem;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  color: #fff;
+  cursor: pointer;
+}
+i:hover {
+  color: #e882e8;
+  border-color: #e882e8;
 }
 
 body {
   min-height: 100vh;
-  padding: 1.5rem 0;
+  padding-top: 1.5rem;
   background-color: #674baf;
-  position: relative;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   color: #fff;
   line-height: 1.5;
+  position: relative;
 }
 body:before {
   content: "";
-  inset: 0;
   position: absolute;
   width: 100%;
   height: min(70%, 400px);
-  background: url(../images/bg-mobile.svg) no-repeat;
-  background-position: center;
+  inset: 0;
+  background: url(../images/bg-mobile.svg) center no-repeat;
   background-size: cover;
   z-index: -1;
+}
+@media (min-width: 700px) {
+  body:before {
+    background: url(../images/bg-desktop.svg) center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+  }
+}
+@media (min-width: 700px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 header .logo {
@@ -72,11 +114,19 @@ header .logo {
 
 main {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
+  flex-direction: column;
+  margin-bottom: 3rem;
 }
 main img {
   margin-bottom: 2rem;
+}
+@media (min-width: 700px) {
+  main img {
+    width: 50%;
+    margin: 0;
+  }
 }
 main .info-section {
   width: 80%;
@@ -87,9 +137,34 @@ main .info-section h1 {
   font-family: "Poppins", sans-serif;
   margin-bottom: 1.5rem;
 }
+@media (min-width: 700px) {
+  main .info-section h1 {
+    font-size: 2rem;
+  }
+}
 main .info-section p {
   font-family: "Open Sans", sans-serif;
   margin-bottom: 1.5rem;
+}
+@media (min-width: 700px) {
+  main .info-section {
+    width: 50%;
+    text-align: left;
+  }
+}
+@media (min-width: 700px) {
+  main .info-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+@media (min-width: 700px) {
+  main {
+    flex-direction: row;
+    gap: 3rem;
+  }
 }
 
 footer .social-media {
@@ -97,14 +172,19 @@ footer .social-media {
   justify-content: center;
   align-items: center;
   gap: 2rem;
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
+}
+@media (min-width: 700px) {
+  footer .social-media {
+    justify-content: flex-end;
+  }
 }
 footer .attribution {
   font-size: 11px;
   text-align: center;
 }
 footer .attribution a {
-  color: #fff;
+  color: #e882e8;
 }
 
 /*# sourceMappingURL=style.css.map */

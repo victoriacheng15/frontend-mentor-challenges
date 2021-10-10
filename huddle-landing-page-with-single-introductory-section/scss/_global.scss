@@ -9,19 +9,66 @@ $font-body: 'Open Sans', sans-serif;
   font-family: $font-body;
 }
 
+@mixin respond($breakpoint) {
+  @if ($breakpoint == medium) {
+    @media (min-width: 700px) {
+      @content;
+    }
+  }
+}
+
+@mixin flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin transition {
+  transition: all 300ms ease;
+}
+
 .container {
   width: Min(90%, 380px);
   margin: 0 auto;
+
+  @include respond(medium) {
+    width: Min(90%, 900px);
+  }
 }
 
 button {
   @include font-body;
+  @include transition;
   width: 70%;
-  padding: 0.5rem 3rem;
+  padding: 0.5rem 1rem;
   border: none;
   border-radius: 100px;
   background: #fff;
   color: $violet;
   font-weight: 600;
-  margin-bottom: 3rem;
+  // margin-bottom: 3rem;
+  cursor: pointer;
+
+  &:hover {
+    background: $soft-magenta;
+    color: #fff;
+  }
+
+  @include respond(medium) {
+    width: 40%;
+  }
+}
+
+i {
+  @include transition;
+  padding: 0.75rem;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  color: #fff;
+  cursor: pointer;
+
+  &:hover {
+    color: $soft-magenta;
+    border-color: $soft-magenta;
+  }
 }
