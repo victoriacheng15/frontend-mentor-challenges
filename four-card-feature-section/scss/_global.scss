@@ -1,0 +1,17 @@
+@use 'variables' as *;
+
+@mixin flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  font-size: $baseFontSize;
+  line-height: 1.8;
+}
+
+.container {
+  width: Min(90%, 380px);
+  margin: 0 auto;
+}

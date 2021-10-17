@@ -1,0 +1,45 @@
+@use 'variables' as *;
+@use 'global' as *;
+
+body {
+  @include flex;
+  font-family: $baseFontFamily;
+  color: $veryDarkBlue;
+}
+
+// header style
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+
+  .title {
+    margin-bottom: 1.25rem;
+
+    h1 {
+      font-size: 1.7rem;
+      font-weight: 400;
+
+      span {
+        font-weight: 600;
+        color: black;
+      }
+    }
+  }
+
+  .title-info {
+    color: $grayishBlue;
+    font-weight: 400;
+    letter-spacing: 1px;
+  }
+}
+
+footer {
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+
+    a {
+      color: hsl(228, 45%, 44%);
+    }
+  }
+}
