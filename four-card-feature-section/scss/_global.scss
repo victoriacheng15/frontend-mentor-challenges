@@ -1,17 +1,64 @@
 @use 'variables' as *;
 
+// mixin functions
 @mixin flex {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+@mixin max-width($width) {
+  max-width: $width;
+  margin: 0 auto;
+}
+
+@mixin breakpoint($bp) {
+  @media (min-width: $bp) {
+    @content;
+  }
+}
+
+// global style
 body {
+  padding-top: 3rem;
   font-size: $baseFontSize;
   line-height: 1.8;
 }
 
 .container {
-  width: Min(90%, 380px);
+  width: Min(90%, 1200px);
   margin: 0 auto;
+}
+
+.info-card {
+  @include max-width(375px);
+  padding: 2rem;
+  border-radius: 5px;
+  box-shadow: 0 5px 20px $veryDarkBlue;
+  overflow: hidden;
+  position: relative;
+  transition: 0.5s;
+
+  &:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    inset: 0;
+    background: red;
+  }
+
+  .info-title {
+    margin-bottom: 0.5rem;
+  }
+
+  .info-text {
+    @include flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+    img {
+      align-self: flex-end;
+    }
+  }
 }
