@@ -16,20 +16,74 @@ header {
     margin-bottom: 1.25rem;
 
     h1 {
-      font-size: 1.7rem;
+      @include max-width(450px);
+      font-size: 1.6rem;
       font-weight: 400;
+      transition: 0.5s;
+
+      @include breakpoint(450px) {
+        font-size: 2rem;
+      }
+
+      @include breakpoint(800px) {
+        @include max-width(650px);
+        font-size: 2.25rem;
+        letter-spacing: 2px;
+      }
 
       span {
         font-weight: 600;
-        color: black;
+        color: $veryDarkBlue;
       }
     }
   }
 
   .title-info {
+    @include max-width(650px);
+    font-size: 1.05rem;
     color: $grayishBlue;
     font-weight: 400;
     letter-spacing: 1px;
+  }
+}
+
+main {
+  @include flex;
+  margin-bottom: 3rem;
+  flex-direction: column;
+  gap: 2rem;
+
+  @include breakpoint(950px) {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-items: center;
+    align-content: center;
+
+    .info-card:first-child {
+      grid-row: 1 / -1;
+    }
+
+    .info-card:last-child {
+      grid-column: 3;
+      grid-row: 1 / -1;
+    }
+  }
+
+  .info-card:first-child::before {
+    background: $cyan;
+  }
+
+  .info-card:nth-child(2)::before {
+    background: $red;
+  }
+
+  .info-card:nth-child(3)::before {
+    background: $orange;
+  }
+
+  .info-card:last-child::before {
+    background: $blue;
   }
 }
 
