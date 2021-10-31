@@ -1,0 +1,29 @@
+@use '../components/card' as *;
+
+.card {
+  padding-top: 80px;
+
+  &-title {
+    margin: 1.75rem 0;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+  }
+}
+
+.questions-answers {
+  .question-section {
+    border-bottom: 1px solid black;
+    margin-bottom: 1rem;
+
+    .question-title {
+      margin-bottom: 1rem;
+      font-size: 1.15rem;
+      font-weight: 400;
+    }
+
+    .answer-text {
+      margin-bottom: 1rem;
+    }
+  }
+}

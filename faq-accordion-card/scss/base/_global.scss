@@ -1,0 +1,15 @@
+@use '../utilities/variables' as *;
+@use '../utilities/mixins' as *;
+
+.container {
+  width: Min(90%, 800px);
+  margin: 0 auto;
+}
+
+body {
+  @include flex;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(45deg, $softViolet, $softBlue);
+  font-family: $fontFamily;
+}
