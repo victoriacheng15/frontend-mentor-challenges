@@ -4,6 +4,6 @@
 }
 
 @mixin width($max-wdith) {
-  width: Min(90%, #{$max-wdith}px);
+  width: Min(100%, #{$max-wdith}px);
   margin: 0 auto;
 }
