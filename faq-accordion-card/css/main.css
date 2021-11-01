@@ -1,0 +1,146 @@
+*,
+*::before,
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+.container {
+  width: min(90%, 800px);
+  margin: 0 auto;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(45deg, #af67e9, #6565e7);
+  font-size: 12px;
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 400;
+  color: #4a4b5e;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card {
+  width: min(100%, 400px);
+  margin: 0 auto;
+  padding: 1.5rem;
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 30px;
+  position: relative;
+}
+
+.image-container {
+  width: 300px;
+  height: auto;
+  position: relative;
+  transform: translateY(90px);
+  z-index: 1;
+}
+.image-container .back-image {
+  position: absolute;
+  top: -40px;
+}
+
+.card {
+  padding-top: 100px;
+}
+.card-title {
+  margin: 1.75rem 0;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1d1e35;
+  text-align: center;
+}
+
+.arrow-down {
+  width: 12px;
+  aspect-ratio: 1;
+  cursor: pointer;
+  transition: rotate 400ms ease;
+}
+.arrow-down.active {
+  transform: rotate(180deg);
+}
+
+.question-section {
+  margin-bottom: 1rem;
+  border-bottom: 1px solid black;
+  font-size: 1.05rem;
+}
+.question-section .question-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1.05rem;
+  font-weight: 400;
+}
+.question-section .question-title.bold-title {
+  font-weight: 700;
+}
+.question-section .answer-text {
+  height: 0;
+  visibility: hidden;
+  transition: all 1s ease;
+}
+.question-section .answer-text.open {
+  margin-bottom: 1rem;
+  visibility: visible;
+}
+
+footer .attribution {
+  font-size: 11px;
+  text-align: center;
+  color: black;
+}
+footer .attribution a {
+  color: #fff;
+}
+
+/*# sourceMappingURL=main.css.map */

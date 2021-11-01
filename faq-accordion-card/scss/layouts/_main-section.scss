@@ -1,0 +1,70 @@
+@use '../utilities/variables' as *;
+@use '../utilities/mixins' as *;
+@use '../components/card' as *;
+
+.image-container {
+  width: 300px;
+  height: auto;
+  position: relative;
+  transform: translateY(90px);
+  z-index: 1;
+
+  .back-image {
+    position: absolute;
+    top: -40px;
+  }
+}
+
+.card {
+  padding-top: 100px;
+
+  &-title {
+    margin: 1.75rem 0;
+    font-size: 2rem;
+    font-weight: 700;
+    color: $veryDarkDesBlue;
+    text-align: center;
+  }
+}
+
+.arrow-down {
+  width: 12px;
+  aspect-ratio: 1;
+  cursor: pointer;
+  transition: rotate 400ms ease;
+
+  &.active {
+    transform: rotate(180deg);
+  }
+}
+
+.question-section {
+  margin-bottom: 1rem;
+  border-bottom: 1px solid black;
+  font-size: 1.05rem;
+
+  .question-title {
+    @include flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.05rem;
+    font-weight: 400;
+
+    &.bold-title {
+      font-weight: 700;
+    }
+  }
+
+  .answer-text {
+    height: 0;
+    visibility: hidden;
+    transition: all 1s ease;
+  }
+
+  .answer-text.open {
+    margin-bottom: 1rem;
+    visibility: visible;
+    // transition: height 400ms ease;
+  }
+}

@@ -1,0 +1,9 @@
+@mixin flex {
+  display: flex;
+  align-items: center;
+}
+
+@mixin width($max-wdith) {
+  width: Min(100%, #{$max-wdith}px);
+  margin: 0 auto;
+}
