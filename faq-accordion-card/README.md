@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/responsive-page-built-with-scss-flex-and-grid-z73sVToF3)
-- [Github Live Page](https://victoriacheng15.github.io/frontend-mentor-challenges/four-card-feature-section/)
+- [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/responsive-faq-page-built-with-js-and-scss-Ht2bqyed2)
+- [Github Live Page](https://victoriacheng15.github.io/frontend-mentor-challenges/faq-accordion-card/)
 
 ## My process
 
