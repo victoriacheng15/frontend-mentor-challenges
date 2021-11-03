@@ -4,7 +4,7 @@
 
 .image {
   position: relative;
-  width: 300px;
+  width: 250px;
   transform: translateY(100px);
   z-index: 1;
 
@@ -17,11 +17,11 @@
     $width: 95%;
     position: absolute;
     width: $width;
-    top: -130px;
+    top: -125px;
     left: calc(50% - ($width/2));
 
     @include breakpoint(1000px) {
-      transform: translate(0, 50px);
+      transform: translate(0, 35px);
     }
   }
 
@@ -31,18 +31,18 @@
     top: -180px;
 
     @include breakpoint(1000px) {
-      top: -160px;
+      top: -120px;
     }
   }
 
   &-box {
     position: relative;
     width: 35%;
-    top: -40px;
-    left: 0;
+    top: -50px;
+    left: 12px;
 
     @include breakpoint(1000px) {
-      top: 60px;
+      top: 45px;
       left: 20px;
     }
   }
@@ -51,15 +51,18 @@
 .card {
   position: relative;
   padding-top: 100px;
-  width: 400px;
+  @include flex;
+  width: 330px;
 
   @include breakpoint(1000px) {
-    padding-top: 2rem;
+    padding: 5rem 3rem;
+    width: 480px;
+    height: 500px;
 
     &::before {
       content: '';
       position: absolute;
-      width: 200%;
+      width: 180%;
       height: 100%;
       top: 0;
       right: 0;
@@ -70,7 +73,7 @@
   }
 
   &-title {
-    margin: 1.75rem 0;
+    margin-bottom: 1.75rem;
     font-size: 2rem;
     font-weight: 700;
     color: $veryDarkDesBlue;
@@ -110,7 +113,7 @@
   }
 
   .question-title {
-    font-size: 1.05rem;
+    font-size: 1.2rem;
     font-weight: 400;
 
     &.bold-title {
