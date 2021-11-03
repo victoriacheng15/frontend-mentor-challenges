@@ -2,15 +2,17 @@
 @use '../utilities/mixins' as *;
 
 .container {
-  width: Min(90%, 800px);
+  width: Min(90%, 1000px);
   margin: 0 auto;
 }
 
 body {
   @include flex;
+  padding: 4rem 0;
   flex-direction: column;
-  justify-content: center;
-  background: linear-gradient(45deg, $softViolet, $softBlue);
+  background: linear-gradient(0deg, $softBlue, $softViolet);
+  background-repeat: no-repeat;
+  background-size: cover;
   font-size: 12px;
   font-family: $fontFamily;
   font-weight: 400;
@@ -19,6 +21,12 @@ body {
 
 main {
   @include flex;
+  padding-top: 50px;
   flex-direction: column;
   justify-content: center;
+
+  @include breakpoint(1000px) {
+    padding-top: 0;
+    flex-direction: row;
+  }
 }

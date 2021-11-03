@@ -24,7 +24,7 @@ const questions = [
   },
 ]
 
-const faqDiv = document.querySelector('.questions-answers')
+const faqDiv = document.querySelector('.card-faq')
 
 // functions
 const createNewElement = element => document.createElement(element)
@@ -35,27 +35,32 @@ const createFaqCard = (() => {
   const imageSrc = './images/icon-arrow-down.svg'
   // map out questions and answers from questions.js
   questions.map(questionList => {
-    const section = createNewElement('section')
-    addClass(section, 'question-section')
+    const article = createNewElement('article')
+    addClass(article, 'card-faq-section')
+
+    const questionDiv = createNewElement('div')
+    addClass(questionDiv, 'title-group')
 
     const questionTitle = createNewElement('h3')
     addClass(questionTitle, 'question-title')
     addTextContent(questionTitle, questionList.question)
 
-    const arrow = createNewElement('img')
-    addClass(arrow, 'arrow-down')
-    arrow.src = imageSrc
-    arrow.alt = 'arrow down'
-    questionTitle.appendChild(arrow)
+    const arrowImg = createNewElement('img')
+    addClass(arrowImg, 'arrow-down')
+    arrowImg.src = imageSrc
+    arrowImg.alt = 'arrow down'
+
+    const addToQuestionDivs = [questionTitle, arrowImg]
+    addToQuestionDivs.map(addToQuestionDiv => questionDiv.appendChild(addToQuestionDiv))
 
     const answerText = createNewElement('p')
     addClass(answerText, 'answer-text')
     addTextContent(answerText, questionList.answer)
 
-    const addSections = [questionTitle, answerText]
-    addSections.map(addSection => section.appendChild(addSection))
+    const addToSections = [questionDiv, answerText]
+    addToSections.map(addToSection => article.appendChild(addToSection))
 
-    faqDiv.appendChild(section)
+    faqDiv.appendChild(article)
   })
 })()
 

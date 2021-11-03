@@ -2,9 +2,7 @@
 @use '../utilities/mixins' as *;
 
 .card {
-  @include width(400);
-  padding: 1.5rem;
-  background-color: hsla(0, 0%, 100%, 0.95);
+  padding: 2rem;
+  background-color: #fff;
   border-radius: 30px;
-  position: relative;
 }

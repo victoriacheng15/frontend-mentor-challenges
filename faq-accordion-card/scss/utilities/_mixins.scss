@@ -7,3 +7,9 @@
   width: Min(100%, #{$max-wdith}px);
   margin: 0 auto;
 }
+
+@mixin breakpoint($bpWdith) {
+  @media (min-width: $bpWdith) {
+    @content;
+  }
+}

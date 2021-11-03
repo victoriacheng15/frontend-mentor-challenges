@@ -1,23 +1,24 @@
 import { createFaqCard } from './questions.js'
 
-const questionSections = document.querySelectorAll('.question-section')
+const faqSections = document.querySelectorAll('.card-faq-section')
 
-questionSections.forEach(questionSection => {
-  const arrowDownBtn = questionSection.querySelector('.arrow-down')
-  const boldTitle = questionSection.querySelector('.question-title')
-  const showAnswer = questionSection.querySelector('.answer-text')
+faqSections.forEach(faqSection => {
+  const clickOnQuestions = faqSection.querySelector('.title-group')
+  const arrowDown = faqSection.querySelector('.arrow-down')
+  const boldTitle = faqSection.querySelector('.question-title')
+  const showAnswer = faqSection.querySelector('.answer-text')
 
-  arrowDownBtn.addEventListener('click', () => {
+  clickOnQuestions.addEventListener('click', () => {
     let answerHeight = showAnswer.scrollHeight
 
     if (showAnswer.classList.contains('open')) {
-      showAnswer.style.height = `0px`
+      showAnswer.style.height = '0px'
     } else {
       showAnswer.style.height = `${answerHeight}px`
     }
 
     showAnswer.classList.toggle('open')
     boldTitle.classList.toggle('bold-title')
-    arrowDownBtn.classList.toggle('active')
+    arrowDown.classList.toggle('active')
   })
 })
