@@ -28,7 +28,7 @@ The project submussuins are divided into categories below.
 | 1.  | [Order Summary component](https://victoriacheng15.github.io/frontend-mentor-challenges/order-summary-component/)                          | [Repo](https://github.com/victoriacheng15/frontend-mentor-challenges/tree/main/order-summary-component)                              |
 | 2.  | [Huddle landing page](https://victoriacheng15.github.io/frontend-mentor-challenges/huddle-landing-page-with-single-introductory-section/) | [Repo](https://github.com/victoriacheng15/frontend-mentor-challenges/tree/main/huddle-landing-page-with-single-introductory-section) |
 | 3.  | [Four card feature section](https://victoriacheng15.github.io/frontend-mentor-challenges/four-card-feature-section/)                      | [Repo](https://github.com/victoriacheng15/frontend-mentor-challenges/tree/main/four-card-feature-section)                            |
-| 4.  | [FAQ Accordion Card](https://victoriacheng15.github.io/frontend-mentor-challenges/faq-accordion-card)                                     | [Repo](https://github.com/victoriacheng15/frontend-mentor-challenges/tree/main/faq-accordion-card)                                   |
+                              
 
 ### JavaScript
 
