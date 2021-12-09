@@ -15,8 +15,8 @@ The goals:
 
 ## Links
 
-- [Frontend Mentor Solution]()
-- [Github Live Page]()
+- [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/built-with-mobile-first-approach-scss-and-js-hOWhuO4Cp)
+- [Github Live Page](https://victoriacheng15.github.io/frontend-mentor-challenges/interactive-pricing-component/)
 
 
 ## Built with
