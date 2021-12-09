@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Interactive pricing component</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h2>Simple, traffic-based pricing</h2>
+      <p>Sign-up for our 30-day trial. No credit card required.</p>
+    </header>
+    <div class="card">
+      <main class="main">
+        <div class="main__pageview">
+          <p class="main__views"><span data-pageviews>10K</span> Pageviews</p>
+          <p class="main__cost">
+            $<span data-cost>8.00</span> <span>/month</span>
+          </p>
+        </div>
+        <input type="range" id="cost" name="cost" min="8" max="36" value="0" />
+        <p class="main__cost">
+          $<span data-cost>8.00</span> <span>/month</span>
+        </p>
+        <div class="main__billing">
+          <p class="main__billing-monthly">Monthly Billing</p>
+          <label data-discount>
+            <input type="checkbox" />
+            <span></span>
+          </label>
+          <p class="main__billing-yearly">Yearly Billing</p>
+          <p class="main__billing-discount">-25% <span>discount</span></p>
+        </div>
+        <section class="main__pros">
+          <ul>
+            <li class="main__pros-list">
+              <img src="./images/icon-check.svg" alt="checkmark" />
+              <p>Unlimited websites</p>
+            </li>
+            <li class="main__pros-list">
+              <img src="./images/icon-check.svg" alt="checkmark" />
+              <p>100% data ownership</p>
+            </li>
+            <li class="main__pros-list">
+              <img src="./images/icon-check.svg" alt="checkmark" />
+              <p>Email reports</p>
+            </li>
+          </ul>
+          <button class="main__pros-trial">Start my trial</button>
+        </section>
+      </main>
+    </div>
+    <!-- <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Your Name Here</a>.
+      </div>
+    </footer> -->
+  </body>
+</html>

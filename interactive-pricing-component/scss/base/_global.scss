@@ -1,0 +1,67 @@
+@use '../utilities/' as *;
+
+body {
+  padding: 120px 0 2rem 0;
+  @include flex-align;
+  flex-direction: column;
+  gap: 2rem;
+  background: url(../images/bg-pattern.svg);
+  background-repeat: no-repeat;
+  background-color: $vary-pale-blue;
+  font-family: $ff-text;
+}
+
+h2 {
+  font-size: clamp(1.5rem, 5vw, 2rem);
+}
+
+button {
+  border: none;
+  border-radius: 100px;
+  background: $dark-desat-blue;
+  color: $pale-blue;
+  cursor: pointer;
+}
+
+.card {
+  width: Min(90%, 700px);
+  border-radius: 10px;
+  background: $white;
+}
+
+input[type='range'] {
+  -webkit-appearance: none;
+  width: 80%;
+  height: 10px;
+  border-radius: 5px;
+  background: hsla(0, 0%, 83%, 0.25);
+  background-image: linear-gradient($strong-cyan, $strong-cyan);
+  background-size: 0 100%;
+  background-repeat: no-repeat;
+}
+
+input[type='range']::-webkit-slider-runnable-track {
+  -webkit-appearance: none;
+  box-shadow: none;
+  border: none;
+  background: transparent;
+}
+
+input[type='range']::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  margin-top: -2px;
+  width: 30px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background-image: url(../images/icon-slider.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: $strong-cyan;
+  cursor: pointer;
+  box-shadow: 0 0 15px $strong-cyan;
+  // transition: background 0.3s ease-in-out;
+
+  &:active {
+    filter:contrast(80%);
+  }
+}
