@@ -37,3 +37,5 @@ The project submussuins are divided into categories below.
 | 1.  | [Tip Calculator App](https://victoriacheng15.github.io/frontend-mentor-challenges/tip-calculator-app/) | [Repo](https://github.com/victoriacheng15/frontend-mentor-challenges/tree/main/tip-calculator-app) |
 | 2.  | [Calculator App](https://victoriacheng15.github.io/frontend-mentor-challenges/calculator-app/)         | [Repo](https://github.com/victoriacheng15/frontend-mentor-challenges/tree/main/calculator-app)     |
 | 3.  | [FAQ Accordion Card](https://victoriacheng15.github.io/frontend-mentor-challenges/faq-accordion-card)  | [Repo](https://github.com/victoriacheng15/frontend-mentor-challenges/tree/main/faq-accordion-card) |
+| 4.  | [Interactive Price Component](https://victoriacheng15.github.io/frontend-mentor-challenges/interactive-pricing-component/)  | [Repo](https://github.com/victoriacheng15/frontend-mentor-challenges/tree/main/interactive-pricing-component) |
+
