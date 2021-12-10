@@ -1,6 +1,6 @@
 # 3-column preview card component solution
 
-The challenge is to build out this [3-column preview card component](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-). and get it looking as close to the design as possible.
+The challenge is to build out this [3-column preview card component](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-) and get it looking as close to the design as possible.
 
 The goals:
 
@@ -11,7 +11,7 @@ The goals:
 
 ## Screenshot
 
-![3-column preview card component](https://user-images.githubusercontent.com/35031228/115970640-b6830900-a511-11eb-882f-afbb308c7041.png)
+<img src="https://user-images.githubusercontent.com/35031228/145623397-3d90a05c-2c5b-4d08-8a49-139ce6ed05f2.png" alt="dark blue theme" width="700"/> 
 
 ## Links
 
