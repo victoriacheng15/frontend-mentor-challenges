@@ -12,7 +12,7 @@ The goals:
 ## Screenshot
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/35031228/140218049-11e0e663-c1a4-4fae-b3d6-fcc5dc02f3e2.gif" alt="dark purple theme" width="600"/>
+  <img src="https://user-images.githubusercontent.com/35031228/140218049-11e0e663-c1a4-4fae-b3d6-fcc5dc02f3e2.gif" alt="faq accordion card" width="600"/>
  </div>
 
 ## Links
