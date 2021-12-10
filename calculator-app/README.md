@@ -11,7 +11,9 @@ The goals:
 
 ## Screenshot
 
-<img src="https://user-images.githubusercontent.com/35031228/133800572-e2269ad4-245c-4583-9129-416413ae9c1a.png" alt="dark blue theme" width="300"/><img src="https://user-images.githubusercontent.com/35031228/133800574-31c8133f-348a-4b62-ac23-b2b2334745b7.png" alt="light theme" width="300"/><img src="https://user-images.githubusercontent.com/35031228/133800575-2c52b931-5b84-4c81-b1e1-522119a5651c.png" alt="dark purple theme" width="300"/>
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/35031228/133800572-e2269ad4-245c-4583-9129-416413ae9c1a.png" alt="dark blue theme" width="300"/><img src="https://user-images.githubusercontent.com/35031228/133800574-31c8133f-348a-4b62-ac23-b2b2334745b7.png" alt="light theme" width="300"/><img src="https://user-images.githubusercontent.com/35031228/133800575-2c52b931-5b84-4c81-b1e1-522119a5651c.png" alt="dark purple theme" width="300"/>
+</div>
 
 ## Links
 
