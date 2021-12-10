@@ -10,7 +10,7 @@ The goals:
 ## Screenshot
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/35031228/137995959-447f4fe1-5c85-472c-833d-7f30f0c8921e.png" alt="dark purple theme" width="600"/>
+  <img src="https://user-images.githubusercontent.com/35031228/137995959-447f4fe1-5c85-472c-833d-7f30f0c8921e.png" alt="four card feature section" width="600"/>
 </div>
 
 ## Links
