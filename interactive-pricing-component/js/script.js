@@ -8,21 +8,18 @@ let monthly;
 let views;
 
 let infos = [
-  {price: 8, views: '10K'},
-  {price: 12, views: '50K'},
-  {price: 16, views: '100K'},
-  {price: 24, views: '500K'},
-  {price: 32, views: '1M'},
-]
-
-// const views = ['10K', '50K', '100K', '500K', '1M']
+  { price: 8, views: '10K' },
+  { price: 12, views: '50K' },
+  { price: 16, views: '100K' },
+  { price: 24, views: '500K' },
+  { price: 32, views: '1M' },
+];
 
 function handleDiscount() {
   span.classList.toggle('discount');
 
   updateValues();
 }
-
 
 function updateValues() {
   let max = this.max;
@@ -45,28 +42,27 @@ function updateValues() {
   const priceAndView = (index) => {
     monthly = infos[index].price;
     views = infos[index].views;
-  }
+  };
 
   if (price8) {
-    priceAndView(0)
+    priceAndView(0);
   } else if (price12) {
-    priceAndView(1)
+    priceAndView(1);
   } else if (price16) {
-    priceAndView(2)
+    priceAndView(2);
   } else if (price24) {
-    priceAndView(3)
+    priceAndView(3);
   } else if (price36) {
-    priceAndView(4)
+    priceAndView(4);
   }
 
   if (discountToggle.checked) {
-    monthly = monthly * 0.75
+    monthly = monthly * 0.75;
   }
 
   costs.forEach((cost) => (cost.textContent = `${monthly}.00`));
   pageviews.textContent = views;
 }
-
 
 discountToggle.addEventListener('click', handleDiscount);
 rangeInput.addEventListener('input', updateValues);
