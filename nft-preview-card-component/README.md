@@ -17,8 +17,8 @@ The goals:
 
 ## Links
 
-- [Frontend Mentor Solution]()
-- [Github Live Page]()
+- [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/nft-card-built-with-tailwind-6uWYx2tSX)
+- [Github Live Page](https://victoriacheng15.github.io/frontend-mentor-challenges/nft-preview-card-component/)
 
 
 ## Built with
