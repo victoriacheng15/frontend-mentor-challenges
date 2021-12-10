@@ -1,57 +1,39 @@
-# Frontend Mentor - 3-column preview card component solution
+# 3-column preview card component solution
 
-This is a solution to the
-[3-column preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-).
-Frontend Mentor challenges help you improve your coding skills by building
-realistic projects.
+The challenge is to build out this [3-column preview card component](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-) and get it looking as close to the design as possible.
 
-## Table of contents
+The goals:
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-- [Author](#author)
-
-## Overview
-
-### The challenge
-
-Users should be able to:
-
+- To improve my `CSS` skill
 - Responsive webpage for mobile and desktop
 - View the optimal layout depending on their device's screen size
 - See hover states for interactive elements
 
-### Screenshot
+## Screenshot
 
-![Screenshot_2021-04-24 Frontend Mentor 3-column preview card component](https://user-images.githubusercontent.com/35031228/115970640-b6830900-a511-11eb-882f-afbb308c7041.png)
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/35031228/145623397-3d90a05c-2c5b-4d08-8a49-139ce6ed05f2.png" alt="3-column preview card" width="700"/> 
+</div>
 
-### Links
+## Links
 
 - Solution URL:
   [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/responsive-page-with-mobile-design-first-and-flexbox-77MvHb6B-)
 - Live Site URL:
   [Github Live Page](https://victoriacheng15.github.io/3-column-preview-card-component/)
 
-## My process
-
-### Built with
+## Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow
 
-### What I learned
-
-This project has reinforced my learning on flexbox and responsive page based on
-viewport size.
-
 ## Author
 
 - Frontend Mentor - [@victoriacheng15](https://www.frontendmentor.io/profile/victoriacheng15)
 - Github - [@victoriacheng15](https://github.com/victoriacheng15)
+
+## Acknowledgments
+
+As always, thanks to people at Frontend Mentor for offering the oportunity to allow me practice my skills.
