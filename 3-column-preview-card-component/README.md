@@ -11,7 +11,9 @@ The goals:
 
 ## Screenshot
 
-<img src="https://user-images.githubusercontent.com/35031228/145623397-3d90a05c-2c5b-4d08-8a49-139ce6ed05f2.png" alt="dark blue theme" width="700"/> 
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/35031228/145623397-3d90a05c-2c5b-4d08-8a49-139ce6ed05f2.png" alt="dark blue theme" width="700"/> 
+</div>
 
 ## Links
 
