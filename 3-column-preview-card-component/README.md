@@ -4,7 +4,7 @@ The challenge is to build out this [3-column preview card component](https://www
 
 The goals:
 
-- To improve my `CSS` skill
+- To improve `CSS` skill
 - Responsive webpage for mobile and desktop
 - View the optimal layout depending on their device's screen size
 - See hover states for interactive elements

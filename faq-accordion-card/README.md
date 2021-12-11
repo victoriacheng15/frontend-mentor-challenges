@@ -4,7 +4,7 @@ The challenge is to build out this [FAQ accordion card challenge](https://www.fr
 
 The goals:
 
-- To improve my `CSS` and `JavaScript` skill
+- To improve `CSS` and `JavaScript` skills
 - View the optimal layout for the component depending on their device's screen size
 - See hover states for all interactive elements on the page
 - Hide/Show the answer to a question when the question is clicked

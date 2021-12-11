@@ -40,7 +40,7 @@ The project submussuins are divided into categories below.
 | 3.  | [FAQ accordion card](https://victoriacheng15.github.io/frontend-mentor-challenges/faq-accordion-card)  | [Repo](https://github.com/victoriacheng15/frontend-mentor-challenges/tree/main/faq-accordion-card) |
 | 4.  | [Interactive price component](https://victoriacheng15.github.io/frontend-mentor-challenges/interactive-pricing-component/)  | [Repo](https://github.com/victoriacheng15/frontend-mentor-challenges/tree/main/interactive-pricing-component) |
 
-### Tailwind
+### Tailwind CSS
 
 | Num | Project Names and Live Site                                                                                                       | Repo Link                                                                                                       |
 | --- | --------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |

@@ -4,7 +4,7 @@ The challenge is to build out this [Four card feature section challenge](https:/
 
 The goals:
 
-- To improve my `SCSS` skill
+- To improve `SCSS` skill
 - View the optimal layout for the site depending on their device's screen sizecked
 
 ## Screenshot

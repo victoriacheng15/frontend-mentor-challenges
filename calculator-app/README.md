@@ -4,7 +4,7 @@ The challenge is to build out this [Calculator app challenge](https://www.fronte
 
 The goals:
 
-- To improve my `CSS` and `JavaScript` skill
+- To improve `CSS` and `JavaScript` skills
 - See the size of the elements adjust based on their device's screen size
 - Perform mathmatical operations like addition, subtraction, multiplication, and division
 - Adjust the color theme based on their preference

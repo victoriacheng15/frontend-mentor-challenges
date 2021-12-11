@@ -4,7 +4,7 @@ The challenge is to build out this [Huddle landing page with single introductory
 
 The goals:
 
-- To improve my `SCSS` skill
+- To improve `SCSS` skill
 - View the optimal layout for the page depending on their device's screen size
 - See hover states for all interactive elements on the page
 
