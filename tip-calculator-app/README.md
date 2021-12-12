@@ -1,4 +1,4 @@
-# FTip calculator app solution
+# Tip calculator app solution
 
 The challenge is to build out this [Tip calculator app challenge](https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX) and get it looking as close to the design as possible.
 
