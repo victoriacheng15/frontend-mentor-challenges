@@ -6,7 +6,7 @@ The goals:
 - To improve `CSS`
 - See hover states for interactive elements
 
-### Screenshot
+## Screenshot
 
 <div align="center">
   <img src="https://user-images.githubusercontent.com/35031228/136487693-c6e5f032-c656-4c5e-ada7-6b4ca087739a.png" alt="order summary card" width="400"/>
