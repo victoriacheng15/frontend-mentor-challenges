@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-style {
+    @apply bg-brightYellow py-2 rounded-lg capitalize font-normal tracking-wide;
+  }
+
+  .body-style {
+    @apply bg-lightGray min-h-screen flex flex-col items-center justify-center text-white;
+  }
+}
