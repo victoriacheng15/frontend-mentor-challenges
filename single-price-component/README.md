@@ -11,13 +11,13 @@ The goals:
 ## Screenshot
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/35031228/132132581-94e3dc91-a7e3-4742-a193-8ee0ecf9d545.png" alt="Interactive pricing component" width="500"/>
+  <img src="https://user-images.githubusercontent.com/35031228/145903251-7c63bee5-58b7-43fe-b8f4-001539333998.png" alt="Interactive pricing component" width="500"/>
 </div>
 
 ## Links
 
-- [Frontend Mentor Solution]()
-- [Github Live Page]()
+- [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/single-price-component-built-with-tailwindcss-GI-crjkIx)
+- [Github Live Page](https://victoriacheng15.github.io/frontend-mentor-challenges/single-price-component/)
 
 ## Built with
 
