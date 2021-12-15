@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <title>Frontend Mentor | Time tracking dashboard</title>
+    <link rel="stylesheet" href="./dist/tailwind.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;1,300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="min-h-screen py-10 box-border bg-neturalBlue-900 font-rubik text-neturalBlue-700 flex-center flex-col">
+    <main class="main-layout flex flex-col gap-4 xl:flex-row">
+      <section class="w-80 bg-neturalBlue-800 rounded-xl overflow-hidden xl:w-60 xl:row-span-2">
+        <div class="bg-primaryBlue p-6 flex-between gap-4 rounded-xl xl:flex-col xl:items-start">
+          <img class="w-20 h-20 border-2 border-white rounded-full" src="./images/image-jeremy.png" alt="jeremy" />
+          <div class="person-info">
+            <p>Report for</p>
+            <h1 class="title-style break-words text-2xl xl:text-4xl xl:mb-4">jeremy robson</h1>
+          </div>
+        </div>
+        <div id="btn-container" class="p-6 flex-between xl:flex-col xl:items-start xl:gap-8 xl:text-xl">
+          <button class="btn-style">daily</button>
+          <button class="btn-style active-status">weekly</button>
+          <button class="btn-style">monthly</button>
+        </div>
+      </section>
+      <div id="card-grid" class="grid-center xl:grid-cols-3 gap-4"></div>
+    </main>
+    <footer>
+      <p class="text-xs text-blue-100 text-center">
+        Challenge by
+        <a class="text-primaryBlue" href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a class="text-primaryBlue" href="https://github.com/victoriacheng15" target="_blank">Victoria</a>.
+      </p>
+    </footer>
+    <script src="./js/section.js"></script>
+  </body>
+</html>
