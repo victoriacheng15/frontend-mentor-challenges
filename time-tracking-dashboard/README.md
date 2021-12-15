@@ -17,7 +17,7 @@ The goals:
 
 ## Links
 
-- [Frontend Mentor Solution]()
+- [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/built-thisdashboard-with-tailwindcss-and-javascript-o_lw9Kc_6)
 - [Github Live Page](https://victoriacheng15.github.io/frontend-mentor-challenges/time-tracking-dashboard/)
 
 ## Built with
