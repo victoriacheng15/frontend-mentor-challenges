@@ -4,7 +4,7 @@ The challenge is to build out this [Time tracking dashboard challenge](https://w
 
 The goals:
 
-- To continue learning about `Tailwind CSS`
+- To continue learning about `Tailwind CSS` and improve `JavaScript` skills
 - View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
 - Switch between viewing Daily, Weekly, and Monthly stats
@@ -12,17 +12,15 @@ The goals:
 ## Screenshot
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/35031228/145652933-08178e66-ffd2-4e9c-9fa9-7d8e6a31fa3e.png" alt="Interactive pricing component" width="400"/>
+  <img src="https://user-images.githubusercontent.com/35031228/146278978-f6b2b147-e409-40b4-81d9-37f92af70d82.png" alt="Itime tracking dashboard" width="500"/>
 </div>
 
 ## Links
 
 - [Frontend Mentor Solution]()
-- [Github Live Page](https://victoriacheng15.github.io/frontend-mentor-challenges/nft-preview-card-component/)
+- [Github Live Page](https://victoriacheng15.github.io/frontend-mentor-challenges/time-tracking-dashboard/)
 
-## My process
-
-### Built with
+## Built with
 
 - Semantic HTML5 markup
 - Mobile-first workflow
@@ -35,4 +33,4 @@ The goals:
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+As always, thanks to people at Frontend Mentor for offering the oportunity to allow me practice my skills.

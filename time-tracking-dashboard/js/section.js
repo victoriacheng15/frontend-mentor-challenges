@@ -23,13 +23,13 @@ const displayData = (data, timeframe) => {
   displayInfo.innerHTML = '';
   data.forEach((getInfo) => {
     const section = `
-      <section class="w-80 bg-${nameFormatter(getInfo.title)} relative overflow-hidden rounded-xl xl:w-60">
+      <section class="w-80 bg-${nameFormatter(getInfo.title)} relative overflow-hidden rounded-lg xl:w-60">
         <img 
           class="absolute -top-4 right-4" 
           src="./images/icon-${nameFormatter(getInfo.title, false)}.svg" 
           alt=${getInfo.title} 
         />
-        <div class="bg-neturalBlue-800 hover:bg-blue-900 mt-9 p-6 relative flex flex-col gap-4 rounded-xl xl:mt-11 cursor-pointer">
+        <div class="bg-neturalBlue-800 hover:bg-blue-900 mt-9 p-6 relative flex flex-col gap-4 rounded-t-lg xl:mt-11 cursor-pointer">
           <div class="flex-between">
             <h2 class="title-style text-xl">${getInfo.title}</h2>
             <img src="images/icon-ellipsis.svg" alt="ellipsis" />
