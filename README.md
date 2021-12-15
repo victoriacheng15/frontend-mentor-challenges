@@ -32,12 +32,16 @@ The project submussuins are divided into categories below.
 
 ### JavaScript
 
-| Num | Project Names and Live Site                                                                                                | Repo Link                                                                                                     |
-| --- | -------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
-| 1.  | [Tip Calculator app](https://victoriacheng15.github.io/frontend-mentor-challenges/tip-calculator-app/)                     | [Repo](https://github.com/victoriacheng15/frontend-mentor-challenges/tree/main/tip-calculator-app)            |
-| 2.  | [Calculator app](https://victoriacheng15.github.io/frontend-mentor-challenges/calculator-app/)                             | [Repo](https://github.com/victoriacheng15/frontend-mentor-challenges/tree/main/calculator-app)                |
-| 3.  | [FAQ accordion card](https://victoriacheng15.github.io/frontend-mentor-challenges/faq-accordion-card)                      | [Repo](https://github.com/victoriacheng15/frontend-mentor-challenges/tree/main/faq-accordion-card)            |
-| 4.  | [Interactive price component](https://victoriacheng15.github.io/frontend-mentor-challenges/interactive-pricing-component/) | [Repo](https://github.com/victoriacheng15/frontend-mentor-challenges/tree/main/interactive-pricing-component) |
+- \# - built with `SCSS`
+- \* - built with `Tailwind CSS`
+
+| Num  | Project Names and Live Site                                                                                                | Repo Link                                                                                                     |
+| ---- | -------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| 1.   | [Tip Calculator app](https://victoriacheng15.github.io/frontend-mentor-challenges/tip-calculator-app/)                     | [Repo](https://github.com/victoriacheng15/frontend-mentor-challenges/tree/main/tip-calculator-app)            |
+| 2.   | [Calculator app](https://victoriacheng15.github.io/frontend-mentor-challenges/calculator-app/)                             | [Repo](https://github.com/victoriacheng15/frontend-mentor-challenges/tree/main/calculator-app)                |
+| 3.   | [FAQ accordion card](https://victoriacheng15.github.io/frontend-mentor-challenges/faq-accordion-card)                      | [Repo](https://github.com/victoriacheng15/frontend-mentor-challenges/tree/main/faq-accordion-card)            |
+| 4.#  | [Interactive price component](https://victoriacheng15.github.io/frontend-mentor-challenges/interactive-pricing-component/) | [Repo](https://github.com/victoriacheng15/frontend-mentor-challenges/tree/main/interactive-pricing-component) |
+| 5.\* | [Time tracking dashboard](https://victoriacheng15.github.io/frontend-mentor-challenges/time-tracking-dashboard/)           | [Repo](https://github.com/victoriacheng15/frontend-mentor-challenges/tree/main/time-tracking-dashboard)       |
 
 ### Tailwind CSS
 
