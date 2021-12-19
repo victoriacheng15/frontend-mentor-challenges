@@ -58,22 +58,11 @@ buttons.forEach((button) =>
     button.classList.add('active-status');
     setTimeframe = button.textContent;
 
-    (async function () {
-      try {
-        const data = await (await fetch('./data.json')).json();
-        return displayData(data, setTimeframe);
-      } catch (error) {
-        displayInfo.innerHTML = '';
-        const h2 = document.createElement('h2');
-        h2.classList.add('text-white');
-        h2.textContent = 'something went wrong';
-        displayInfo.append(h2);
-      }
-    })();
+    getData(setTimeframe)
   })
 );
 
-(async function () {
+async function getData(setTimeframe) {
   try {
     const data = await (await fetch('./data.json')).json();
     return displayData(data, setTimeframe);
@@ -84,4 +73,6 @@ buttons.forEach((button) =>
     h2.textContent = 'something went wrong';
     displayInfo.append(h2);
   }
-})();
+};
+
+getData(setTimeframe);
