@@ -7,10 +7,15 @@ This is a solution repo for [Frontend Mentor](https://www.frontendmentor.io/) ch
 The project submussuins are divided into categories below.
 
 - HTML/CSS
-- [SCSS](https://sass-lang.com/)
 - JavaScript
-- [Tailwind CSS](https://tailwindcss.com/)
+- React
+- SCSS
+- Tailwind CSS
 
+
+### Note
+
+`# - built with SCSS` `* - built with Tailwind CSS`
 ### HTML/CSS
 
 | Num | Project Names and Live Site                                                                                                      | Repo Link                                                                                                       |
@@ -22,18 +27,7 @@ The project submussuins are divided into categories below.
 | 5.  | [Sunnyside agency landing page](https://victoriacheng15.github.io/frontend-mentor-challenges/sunnyside-agency-landing-page/)     | [Repo](https://github.com/victoriacheng15/frontend-mentor-challenges/tree/main/sunnyside-agency-landing-page)   |
 | 6.  | [Loopstudios landing page](https://victoriacheng15.github.io/frontend-mentor-challenges/loopstudios-landing-page)                | [Repo](https://github.com/victoriacheng15/frontend-mentor-challenges/tree/main/loopstudios-landing-page)        |
 
-### SCSS
-
-| Num | Project Names and Live Site                                                                                                               | Repo Link                                                                                                                            |
-| --- | ----------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
-| 1.  | [Order summary component](https://victoriacheng15.github.io/frontend-mentor-challenges/order-summary-component/)                          | [Repo](https://github.com/victoriacheng15/frontend-mentor-challenges/tree/main/order-summary-component)                              |
-| 2.  | [Huddle landing page](https://victoriacheng15.github.io/frontend-mentor-challenges/huddle-landing-page-with-single-introductory-section/) | [Repo](https://github.com/victoriacheng15/frontend-mentor-challenges/tree/main/huddle-landing-page-with-single-introductory-section) |
-| 3.  | [Four card feature section](https://victoriacheng15.github.io/frontend-mentor-challenges/four-card-feature-section/)                      | [Repo](https://github.com/victoriacheng15/frontend-mentor-challenges/tree/main/four-card-feature-section)                            |
-
 ### JavaScript
-
-- \# - built with `SCSS`
-- \* - built with `Tailwind CSS`
 
 | Num  | Project Names and Live Site                                                                                                | Repo Link                                                                                                     |
 | ---- | -------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
@@ -42,6 +36,19 @@ The project submussuins are divided into categories below.
 | 3.   | [FAQ accordion card](https://victoriacheng15.github.io/frontend-mentor-challenges/faq-accordion-card)                      | [Repo](https://github.com/victoriacheng15/frontend-mentor-challenges/tree/main/faq-accordion-card)            |
 | 4.#  | [Interactive price component](https://victoriacheng15.github.io/frontend-mentor-challenges/interactive-pricing-component/) | [Repo](https://github.com/victoriacheng15/frontend-mentor-challenges/tree/main/interactive-pricing-component) |
 | 5.\* | [Time tracking dashboard](https://victoriacheng15.github.io/frontend-mentor-challenges/time-tracking-dashboard/)           | [Repo](https://github.com/victoriacheng15/frontend-mentor-challenges/tree/main/time-tracking-dashboard)       |
+
+### React
+| Num | Project Names and Live Site                                                                                    | Repo Link                                                                                                  |
+| --- | -------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| 1.\*  | [Blogr landing page](https://fem-blogr-landing-page-vc.netlify.app/)   | [Repo](https://github.com/victoriacheng15/blogr-landing-page) |
+
+### SCSS
+
+| Num | Project Names and Live Site                                                                                                               | Repo Link                                                                                                                            |
+| --- | ----------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
+| 1.  | [Order summary component](https://victoriacheng15.github.io/frontend-mentor-challenges/order-summary-component/)                          | [Repo](https://github.com/victoriacheng15/frontend-mentor-challenges/tree/main/order-summary-component)                              |
+| 2.  | [Huddle landing page](https://victoriacheng15.github.io/frontend-mentor-challenges/huddle-landing-page-with-single-introductory-section/) | [Repo](https://github.com/victoriacheng15/frontend-mentor-challenges/tree/main/huddle-landing-page-with-single-introductory-section) |
+| 3.  | [Four card feature section](https://victoriacheng15.github.io/frontend-mentor-challenges/four-card-feature-section/)                      | [Repo](https://github.com/victoriacheng15/frontend-mentor-challenges/tree/main/four-card-feature-section)                            |
 
 ### Tailwind CSS
 
