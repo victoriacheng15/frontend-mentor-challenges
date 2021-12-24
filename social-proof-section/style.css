@@ -26,8 +26,7 @@ main {
 */
 
 body {
-  background-image: url('./images/bg-pattern-top-mobile.svg'),
-    url('./images/bg-pattern-bottom-mobile.svg');
+  background-image: url('./images/bg-pattern-top-mobile.svg'), url('./images/bg-pattern-bottom-mobile.svg');
   background-repeat: no-repeat;
   background-position: right 10vw bottom 110vh, left 35vw top 75vh;
   font-size: 15px;
@@ -128,8 +127,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url('./images/bg-pattern-top-desktop.svg'),
-      url('./images/bg-pattern-bottom-desktop.svg');
+    background-image: url('./images/bg-pattern-top-desktop.svg'), url('./images/bg-pattern-bottom-desktop.svg');
     background-position: right 55vw bottom 72vh, left 25vw top 45vh;
   }
 
