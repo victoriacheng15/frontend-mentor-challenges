@@ -12,10 +12,10 @@ The project submussuins are divided into categories below.
 - SCSS
 - Tailwind CSS
 
-
 ### Note
 
-`# - built with SCSS` `* - built with Tailwind CSS`
+- `# - built with SCSS` 
+- `* - built with Tailwind CSS`
 ### HTML/CSS
 
 | Num | Project Names and Live Site                                                                                                      | Repo Link                                                                                                       |
@@ -41,6 +41,7 @@ The project submussuins are divided into categories below.
 | Num | Project Names and Live Site                                                                                    | Repo Link                                                                                                  |
 | --- | -------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
 | 1.\*  | [Blogr landing page](https://fem-blogr-landing-page-vc.netlify.app/)   | [Repo](https://github.com/victoriacheng15/blogr-landing-page) |
+| 2.\*  | [Space tourism multi-page website](https://fem-space-tourism-vc.vercel.app/)   | [Repo](https://github.com/victoriacheng15/space-tourism) |
 
 ### SCSS
 
