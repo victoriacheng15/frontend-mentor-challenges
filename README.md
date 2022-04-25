@@ -47,5 +47,5 @@ categories:
 
 |  Num  | Project Names and Live Site                                                  |                           Repo Link                           | Style        |
 | :---: | ---------------------------------------------------------------------------- | :-----------------------------------------------------------: | :------------: |
-| 1.\*  | [Blogr landing page](https://fem-blogr-landing-page-vc.netlify.app/)         | [Repo](https://github.com/victoriacheng15/blogr-landing-page) | Tailwind CSS |
-| 2.\*  | [Space tourism multi-page website](https://fem-space-tourism-vc.vercel.app/) |   [Repo](https://github.com/victoriacheng15/space-tourism)    | Tailwind CSS |
+| 1.    | [Blogr landing page](https://fem-blogr-landing-page-vc.netlify.app/)         | [Repo](https://github.com/victoriacheng15/blogr-landing-page) | Tailwind CSS |
+| 2.    | [Space tourism multi-page website](https://fem-space-tourism-vc.vercel.app/) |   [Repo](https://github.com/victoriacheng15/space-tourism)    | Tailwind CSS |
